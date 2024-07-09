@@ -1,0 +1,46 @@
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, select, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.task p {
+  margin: 5px 0;
+}
+
+select {
+  margin-left: 10px;
+  margin-right: 10px;
+}
