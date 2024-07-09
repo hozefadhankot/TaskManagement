@@ -16,3 +16,11 @@ npm start
 # project should start  http://localhost:3000/
 
 <h2>Backend</h2>
+create a folder 
+mkdir backend 
+cd backend 
+python3 -m venv venv  
+source venv/bin/activate 
+
+Install Dependences
+pip install flask flask-cors flask-restful flasgger pymongo marshmallow  
